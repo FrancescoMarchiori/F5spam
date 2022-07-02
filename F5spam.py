@@ -137,7 +137,7 @@ while True:
                 # Giving a notification to the user
                 notification.notify(
                     title = '[✅ CHANGE DETECTED]',
-                    message = f'Something changed in "{url_input}", go check it out!',
+                    message = f'Something changed in "{url}", go check it out!',
                     app_icon = './imgs/icon.ico',
                     timeout = 10
                 )
@@ -167,7 +167,7 @@ while True:
                     # Giving a notification to the user
                     notification.notify(
                         title = '[✅ CHANGE DETECTED]',
-                        message = f'Something changed in "{url_input}", go check it out!',
+                        message = f'Something changed in "{url}", go check it out!',
                         app_icon = './imgs/icon.ico',
                         timeout = 10
                     )
